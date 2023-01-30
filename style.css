@@ -45,7 +45,7 @@ h1 {
 
 .bookmark {
   position: absolute;
-  margin-top: -26vw;
+  margin-top: -510px;
   margin-left: 90%;
 }
 .bookmark i {
@@ -55,4 +55,31 @@ h1 {
 .q-a {
   margin: 5%;
   font-size: 2em;
+}
+.show {
+  box-shadow: 1px 2px 2px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 2em;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+}
+.show:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+.show:active {
+  position: relative;
+  top: 1px;
+}
+
+.show a {
+  display: block;
+  color: #3a8a9e;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 8px #e1e2ed;
 }
