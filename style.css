@@ -60,8 +60,8 @@ h1 img {
 .bookmark-on,
 .bookmark-off {
   position: absolute;
-  top: -30px;
-  right: 50px;
+  top: -2vw;
+  right: 3vw;
   cursor: pointer;
 }
 
@@ -72,20 +72,20 @@ h1 img {
 }
 
 .bookmark-off i {
-  font-size: 5em;
+  font-size: 5vw;
   color: white;
   text-shadow: 2px 2px 10px black;
 }
 
 .bookmark-on i {
-  font-size: 5em;
+  font-size: 5vw;
   color: black;
   text-shadow: 2px 2px 10px black;
 }
 
 .q-a {
   margin: 5%;
-  font-size: 2em;
+  font-size: 2vw;
   text-align: center;
 }
 .show {
@@ -110,7 +110,7 @@ h1 img {
   display: block;
   color: aqua;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 1vw;
   padding: 10px 25px;
   text-decoration: none;
   text-shadow: 0px 1px 8px black;
@@ -133,6 +133,7 @@ h1 img {
 }
 
 .tags a {
+  font-size: 1vw;
   text-decoration: none;
   display: flex;
   color: darkgray;
