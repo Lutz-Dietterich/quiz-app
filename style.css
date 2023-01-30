@@ -11,6 +11,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url("casey-horner-RmoWqDCqN2E-unsplash.jpg");
+  background-size: cover;
 }
 
 header {
@@ -45,6 +47,7 @@ h1 {
   margin: 5%;
   padding: 5%;
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: white;
 }
 
 .bookmark-on,
