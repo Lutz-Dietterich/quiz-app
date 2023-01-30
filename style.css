@@ -16,7 +16,7 @@ body {
 header {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: aqua;
   justify-content: center;
   align-items: center;
@@ -25,8 +25,10 @@ header {
 
 h1 {
   font-size: 3rem;
+  margin-top: 160px;
 }
 .site-content {
+  margin-top: 10vw;
   width: 80%;
 }
 
@@ -47,7 +49,14 @@ h1 {
   position: absolute;
   top: -30px;
   right: 50px;
+  cursor: pointer;
 }
+
+.bookmark:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+}
+
 .bookmark i {
   font-size: 5em;
   color: white;
@@ -78,12 +87,12 @@ h1 {
 
 .show a {
   display: block;
-  color: #3a8a9e;
+  color: aqua;
   font-family: Arial;
   font-size: 17px;
   padding: 10px 25px;
   text-decoration: none;
-  text-shadow: 0px 1px 8px #e1e2ed;
+  text-shadow: 0px 1px 8px black;
 }
 
 .hidden {
