@@ -36,7 +36,7 @@ h1 {
 h1 img {
   width: 35vw;
 }
-.site-content {
+.site__content {
   display: flex;
   flex-direction: column;
   margin-top: 10vw;
@@ -57,29 +57,21 @@ h1 img {
   background-color: white;
 }
 
-.bookmark-on,
-.bookmark-off {
+.card__bookmark {
   position: absolute;
   top: -2vw;
   right: 3vw;
   cursor: pointer;
 }
 
-.bookmark-on:hover,
-.bookmark-off:hover {
+.card__bookmark:hover {
   transform: scale(1.1);
   transition: 0.2s ease-in;
 }
 
-.bookmark-off i {
+.card__bookmark i {
   font-size: 5vw;
   color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-.bookmark-on i {
-  font-size: 5vw;
-  color: black;
   text-shadow: 2px 2px 10px black;
 }
 
