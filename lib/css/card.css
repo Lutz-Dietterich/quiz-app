@@ -39,6 +39,12 @@ card.css
     text-shadow: 2px 2px 10px black;
   }
 
+  .card__bookmark--on i {
+    font-size: 5vw;
+    color: #00ffff;
+    text-shadow: 2px 2px 10px black;
+  }
+
   .card__p {
     margin: 5%;
     font-size: 2vw;
