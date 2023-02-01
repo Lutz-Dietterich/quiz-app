@@ -17,7 +17,7 @@ global.css
   * {
     box-sizing: border-box;
     margin: 0;
-    padding 0;
+    padding: 0;
   }
 
   *,
@@ -86,11 +86,10 @@ global.css
     * Elementselektoren
     */
 
-* {
-  font-family: "Roboto", Arial, sans-serif;
-  letter-spacing: 1.2px;
-}
-
+  * {
+    font-family: "Roboto", Arial, sans-serif;
+    letter-spacing: 1.2px;
+  }
 
   /* Schriftgrößen für Überschriften */
   h1 {
