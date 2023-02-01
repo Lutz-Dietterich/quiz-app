@@ -1,6 +1,39 @@
-.site__content {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10vw;
-  width: 80%;
+/* ===============================
+
+content.css
+
+- Links in main
+- Alle Elemente in main
+
+================================*/
+
+@media screen {
+  .site__content {
+    line-height: 1.5;
+  }
+
+  .site__content a:link {
+    color: #0674b8;
+  }
+
+  .site__content a:visited {
+    color: #36aade;
+  }
+
+  .site__content a:hover .site-content a:focus {
+    color: #f5662e;
+  }
+
+  .site-content a:active {
+    color: #d90000;
+  }
+
+  .site__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    width: 80%;
+  }
 }
+
+/* Ende der Media Query */

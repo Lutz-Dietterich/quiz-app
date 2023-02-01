@@ -1,99 +1,109 @@
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid gray;
-  border-radius: 1em;
-  margin: 5%;
-  padding: 5%;
-  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
-  background-color: rgba(255, 255, 255, 0.851);
-}
+/* ===============================
 
-.card__bookmark {
-  position: absolute;
-  top: -2vw;
-  right: 3vw;
-  cursor: pointer;
-}
+card.css
 
-.card__bookmark:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-in;
-}
+- Gestaltung der Fragekarten
 
-.card__bookmark i {
-  font-size: 5vw;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-}
+=============================== */
 
-.card__p {
-  margin: 5%;
-  font-size: 2vw;
-  text-align: center;
-}
+@media screen {
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 1em;
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.851);
+  }
 
-.card__p--hidden {
-  visibility: hidden;
-}
+  .card__bookmark {
+    position: absolute;
+    top: -2vw;
+    right: 3vw;
+    cursor: pointer;
+  }
 
-.card__button--answer {
-  box-shadow: 1px 2px 2px 0px #899599;
-  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-  background-color: #ededed;
-  border-radius: 2em;
-  border: 1px solid #d6bcd6;
-  display: inline-block;
-  cursor: pointer;
-}
-.card__button--answer:hover {
-  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-  background-color: #bab1ba;
-}
-.card__button--answer:active {
-  position: relative;
-  top: 1px;
-}
+  .card__bookmark:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+  }
 
-.card__button--answer a {
-  display: block;
-  color: aqua;
-  font-family: Arial;
-  font-size: 1vw;
-  padding: 10px 25px;
-  text-decoration: none;
-  text-shadow: 0px 1px 8px black;
-}
-.card__list--tags {
-  position: absolute;
-  bottom: 30px;
-  left: 50px;
-  display: flex;
-  align-self: flex-start;
-  width: 50%;
-  justify-content: start;
-  gap: 15px;
-  list-style-type: none;
-}
+  .card__bookmark i {
+    font-size: 5vw;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+  }
 
-.card__list--tags a {
-  font-size: 1vw;
-  text-decoration: none;
-  display: flex;
-  color: darkgray;
-  /* border: 1px solid black; */
-  padding: 10px 20px;
-  justify-content: center;
-  border-radius: 5px;
-  box-shadow: 1px 2px 2px 0px #899599;
-  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-  background-color: #ededed;
-}
+  .card__p {
+    margin: 5%;
+    font-size: 2vw;
+    text-align: center;
+  }
 
-.card__list--tags a:hover {
-  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-  background-color: #bab1ba;
+  .card__p--hidden {
+    visibility: hidden;
+  }
+
+  .card__button--answer {
+    box-shadow: 1px 2px 2px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 2em;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .card__button--answer:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+  .card__button--answer:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .card__button--answer a {
+    display: block;
+    color: aqua;
+    font-family: Arial;
+    font-size: 1vw;
+    padding: 10px 25px;
+    text-decoration: none;
+  }
+  .card__list--tags {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    justify-content: start;
+    gap: 15px;
+    list-style-type: none;
+  }
+
+  .card__list--tags a {
+    font-size: 1vw;
+    text-decoration: none;
+    display: flex;
+    color: darkgray;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+  }
+
+  .card__list--tags a:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
 }
+/* Ende @media */
