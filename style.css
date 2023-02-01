@@ -85,7 +85,7 @@ h1 img {
   visibility: hidden;
 }
 
-.show {
+.card__button--answer {
   box-shadow: 1px 2px 2px 0px #899599;
   background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
   background-color: #ededed;
@@ -94,16 +94,16 @@ h1 img {
   display: inline-block;
   cursor: pointer;
 }
-.show:hover {
+.card__button--answer:hover {
   background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
   background-color: #bab1ba;
 }
-.show:active {
+.card__button--answer:active {
   position: relative;
   top: 1px;
 }
 
-.show a {
+.card__button--answer a {
   display: block;
   color: aqua;
   font-family: Arial;
