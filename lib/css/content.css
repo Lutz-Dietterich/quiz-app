@@ -1,0 +1,6 @@
+.site__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vw;
+  width: 80%;
+}

@@ -1,0 +1,21 @@
+/* =================================
+
+style.css
+
+- zentrales Stylesheet
+- importiert google Fonts
+- importiert alle anderen Stylesheets
+
+================================== */
+
+/* Google Fonts laden */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Sacramento&display=swap");
+
+@import "/lib/css/global.css";
+
+@import "/lib/css/layout.css";
+
+@import "/lib/css/content.css";
+
+@import "/lib/css/card.css";
