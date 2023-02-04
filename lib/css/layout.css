@@ -42,10 +42,15 @@ layout.css
 
   footer {
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #00ffff;
     width: 100%;
+  }
+
+  .footer__nav ul {
+    display: flex;
+    list-style-type: none;
   }
 }
 /* Ende @media */
