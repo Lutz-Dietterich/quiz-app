@@ -16,6 +16,7 @@ layout.css
     flex-direction: column;
     background-image: url("/lib/img/casey-horner-RmoWqDCqN2E-unsplash.jpg");
     background-size: cover;
+    background-position: center;
   }
 
   header {
@@ -38,6 +39,68 @@ layout.css
 
   h1 img {
     width: 35vw;
+  }
+
+  .site__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    width: 80%;
+    height: 80vh;
+  }
+  footer {
+    display: flex;
+    background-color: #00ffff;
+    width: 100%;
+    justify-content: center;
+    align-self: flex-end;
+  }
+
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 2%;
+  }
+
+  .footer__nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .footer__nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 2px #899599;
+    border-radius: 10%;
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .footer__nav li:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .footer__nav i {
+    font-size: 4vw;
+    padding: 1vw;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+  }
+
+  .footer__li--here {
+    background-color: white;
+  }
+
+  .footer__li--here i {
+    color: #00ffff;
   }
 }
 /* Ende @media */

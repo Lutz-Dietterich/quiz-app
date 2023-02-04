@@ -27,13 +27,6 @@ content.css
   .site-content a:active {
     color: #d90000;
   }
-
-  .site__content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10vw;
-    width: 80%;
-  }
 }
 
 /* Ende der Media Query */
