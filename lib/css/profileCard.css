@@ -9,10 +9,11 @@ profileCard.css
 .card__profile--header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex: 1;
   width: 95%;
   margin: 5% 0;
+  gap: 15%;
 }
 
 .card__profile--header img {
@@ -26,8 +27,7 @@ profileCard.css
   font-size: 4vw;
 }
 
-.card__profile--header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.card__aboutMe {
+  width: 85%;
+  margin-bottom: 5%;
 }

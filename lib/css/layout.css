@@ -47,7 +47,11 @@ layout.css
     margin-top: 10vw;
     margin-bottom: 10vw;
     width: 80%;
-    height: 80vh;
+    height: 100vh;
+  }
+
+  .space {
+    height: 100px;
   }
   footer {
     position: fixed;
