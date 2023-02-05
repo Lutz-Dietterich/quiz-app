@@ -6,28 +6,65 @@ profileCard.css
 
 ================================== */
 
-.card__profile--header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex: 1;
-  width: 95%;
-  margin: 5% 0;
-  gap: 15%;
-}
+@media screen {
+  .card__profile--header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    width: 95%;
+    margin: 5% 0;
+    gap: 15%;
+  }
 
-.card__profile--header img {
-  width: 30%;
-  height: auto;
-  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-}
+  .card__profile--header img {
+    width: 30%;
+    height: auto;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
 
-.card__profile--header h2 {
-  font-size: 4vw;
-}
+  .card__profile--header h2 {
+    font-size: 4vw;
+  }
 
-.card__aboutMe {
-  width: 85%;
-  margin-bottom: 5%;
+  .card__aboutMe {
+    width: 85%;
+    margin-bottom: 8%;
+  }
+
+  .card__aboutMe h3 {
+    margin-bottom: 2%;
+  }
+
+  .card__counter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-bottom: 8%;
+  }
+
+  .card__counter--display {
+    display: flex;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    width: 8vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2vw;
+  }
+
+  .card__counter--questionsIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    padding: 5%;
+    width: 2vw;
+    height: 2vw;
+  }
 }
