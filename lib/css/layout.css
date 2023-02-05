@@ -79,7 +79,7 @@ layout.css
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 0px 2px #899599;
+    box-shadow: 0px 0px 3px 0px #899599;
     border-radius: 10%;
     width: 3.5vw;
     height: 3.5vw;
@@ -95,7 +95,7 @@ layout.css
     font-size: 2vw;
     padding: 1vw;
     color: white;
-    text-shadow: 2px 2px 10px black;
+    text-shadow: 1px 1px 5px black;
   }
 
   .footer__li--here {
