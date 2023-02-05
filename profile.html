@@ -25,8 +25,51 @@
     </header>
     <main class="site__content">
       <section class="card">
-        <h2>Profile</h2>
-        <section class="card__profile"></section>
+        <section class="card__header">
+          <img
+            class="card__profileImg"
+            src="./lib/img/user-310807_640.png"
+            width="300px"
+            height="300px"
+            alt="Profile Image"
+          />
+          <h2>Max Doe</h2>
+        </section>
+
+        <article class="card__aboutMe">
+          <h3>About Me</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            id vitae dolorum non libero rerum labore quibusdam eum fugiat
+            assumenda.
+          </p>
+        </article>
+
+        <section class="card__counter">
+          <div class="card__counter--questions">
+            <div class="card__counter--questionsIcon">
+              <i class="far fa-question"></i>
+              <i class="far fa-exclamation"></i>
+            </div>
+            <p>12</p>
+          </div>
+          <div class="card__counter--bookmarks">
+            <i class="far fa-bookmark"></i>
+            <p>4</p>
+          </div>
+        </section>
+
+        <section class="card__settings">
+          <h3>Settings</h3>
+
+          <section class="card__settings--list">
+            <h4>Dark Mode</h4>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </section>
+        </section>
       </section>
     </main>
 
