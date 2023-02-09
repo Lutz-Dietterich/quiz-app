@@ -48,7 +48,8 @@ card.css
   }
 
   .card__p {
-    margin: 5%;
+    margin: 2%;
+    padding: 2%;
     font-size: clamp(16px, 2vw, 32px);
     text-align: center;
   }
@@ -84,7 +85,6 @@ card.css
     text-decoration: none;
   }
   .card__list--tags {
-    position: absolute;
     bottom: 30px;
     left: 50px;
     display: flex;
