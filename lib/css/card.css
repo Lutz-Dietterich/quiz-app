@@ -25,6 +25,10 @@ card.css
     text-shadow: 0px 0px 1px black;
   }
 
+  .card h2 {
+    font-size: clamp(1.5rem, 2.5vw, 3.5rem);
+  }
+
   .card__bookmark {
     position: absolute;
     top: -2vw;
