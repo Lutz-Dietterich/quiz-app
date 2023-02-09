@@ -47,7 +47,7 @@ layout.css
     flex-direction: column;
     margin-top: 10vw;
     margin-bottom: 10vw;
-    width: 80%;
+    width: 60%;
     height: 100vh;
     padding-top: 50px;
   }
@@ -108,7 +108,7 @@ layout.css
   }
 
   .footer__nav i {
-    font-size: 2vw;
+    font-size: clamp(2rem, 2.5vw, 2rem);
     padding: 1vw;
     color: white;
     text-shadow: 1px 1px 5px black;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz-App Bookmark</title>
+    <title>Quiz-App</title>
     <link
       rel="icon"
       type="image/x-icon"
@@ -26,35 +26,24 @@
     </header>
     <main class="site__content">
       <section class="card">
-        <div class="card__bookmark" data-js="bookmark">
-          <i class="far fa-bookmark"></i>
-        </div>
-        <p class="card__p">What property flips the axes in flexbox?</p>
-        <button class="card__button--answer" data-js="card__button--answer">
-          <a href="#">Show Answer</a>
-        </button>
-        <p class="card__p card__p--hidden" data-js="card__answer">Answer</p>
-        <ul class="card__list--tags">
-          <li><a href="#">#html</a></li>
-          <li><a href="#">#flexbox</a></li>
-          <li><a href="#">#css</a></li>
-        </ul>
-      </section>
+        <h2>Create a new Question - Card</h2>
+        <form class="card__form" action="">
+          <label class="card__p" for="question">Write your Question!</label>
+          <textarea
+            name="question"
+            id="question"
+            cols="30"
+            rows="10"
+          ></textarea>
 
-      <section class="card">
-        <div class="card__bookmark" data-js="bookmark2">
-          <i class="far fa-bookmark"></i>
-        </div>
-        <p class="card__p">What property flips the axes in flexbox?</p>
-        <button class="card__button--answer">
-          <a href="#">Show Answer</a>
-        </button>
-        <p class="card__p card__p--hidden" data-js="card__answer">Answer</p>
-        <ul class="card__list--tags">
-          <li><a href="#">#html</a></li>
-          <li><a href="#">#flexbox</a></li>
-          <li><a href="#">#css</a></li>
-        </ul>
+          <label class="card__p" for="answer">Write your Answer!</label>
+          <textarea name="answer" id="answer" cols="30" rows="10"></textarea>
+
+          <label class="card__p" for="tag">Tag:</label>
+          <input type="text" name="tag" id="tag" />
+
+          <button type="submit" class="card__button--answer">Submit</button>
+        </form>
       </section>
     </main>
 
@@ -64,10 +53,10 @@
           <li>
             <a href="index.html"><i class="far fa-house"></i></a>
           </li>
-          <li class="footer__li--here">
+          <li>
             <a href="bookmark.html"><i class="far fa-bookmark"></i></a>
           </li>
-          <li>
+          <li class="footer__li--here">
             <a href="form.html"><i class="far fa-file-circle-plus"></i></a>
           </li>
           <li>

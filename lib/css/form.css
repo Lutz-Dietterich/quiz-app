@@ -1,0 +1,44 @@
+/* ===============================
+
+form.css
+
+- Gestaltung der Formularkarte um Fragen einzufügen
+
+=============================== */
+.card__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__form label {
+  text-align: start;
+  padding: 0;
+}
+
+.card__form textarea,
+input {
+  font-size: 1.3em;
+  resize: none;
+  width: 40vw;
+  height: 10vw;
+  border-radius: 0.5em;
+  padding: 20px;
+}
+
+.card__form input {
+  height: 1vw;
+  /* font-size: 1em; */
+}
+
+.card__form button {
+  width: 10vw;
+  align-self: center;
+  margin-top: 5vw;
+  padding: 10px 25px;
+  color: #36aade;
+  font-size: 1vw;
+}
+
+.card__form button a {
+  padding: 10px 25px;
+}
